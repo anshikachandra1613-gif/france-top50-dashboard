@@ -4,7 +4,7 @@ import pandas as pd
 st.title("Audience Sensitivity, Content Compliance & Format Preference Analysis of France Top 50 Playlist Dashboard")
 
 # Load dataset
-df = pd.read_excel("data/Atlantic_France.xlsx")
+df = pd.read_excel("Atlantic_France.xlsx")
 
 # --- KPI Section ---
 st.subheader("Key Performance Indicators")
